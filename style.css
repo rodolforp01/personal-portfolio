@@ -1,9 +1,21 @@
 /*This website is still under development MY JOB IS NOT GIVING ME FREE TIME FUUUUUUUUU!! XDDD*/
+body:hover .prom{
+    height: 100%;
+    color: #24d97a;
+    -webkit-transition: color 3s ease, height 3s ease;
+    -moz-transition: color 3s ease, height 3s ease;
+    -o-transition: color 3s ease, height 3s ease;
+    -ms-transition: color 3s ease, height 3s ease;
+    transition: color 3s ease, height 3s ease;
+}
+
+
 
 html ,body {
   scroll-behavior: smooth;
   width: 100%;
-  margin: 0;
+  height: 100%;
+  margin:0;
   overflow-x: hidden;
 }
 img {
@@ -85,10 +97,7 @@ img {
 /*Code to change the red thing XD*/
 .prom {
   color:black;
-  transition: color 0.3s ease-out;
-}
-.magic:hover .prom {
-  color:red;
+  transition: color 2s ease-out;
 }
 
 /*WELCOME END*/
@@ -290,6 +299,7 @@ footer {
 
 .dropdown-content a:hover {
   background-color: #ddd;
+  color:black;
 }
 
 .show {
